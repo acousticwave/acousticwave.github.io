@@ -11,19 +11,33 @@ last_modified_at: 2021-03-27T17:00:00-05:00
 
 
 
-I started blogging with github.io to record/manage progress on my studies and works.
-
-I started with a very popular theme [mininmal-mistake](https://github.com/mmistakes/minimal-mistakes). More than 7.8k users starred this theme.
+I started blogging with github.io to record/manage progress on my studies and works. I started with a very popular theme [mininmal-mistake](https://github.com/mmistakes/minimal-mistakes). More than 7.8k users starred this theme.  This blog is implemented utilizing the theme.
 
 
 
 ## How to
 
-- The first step is cloning the theme 
-- You ca
+### Clone Minimal mistake
+
+- The first step is cloning the theme to your GitHub folder in your PC.
+
+```
+$ git clone https://github.com/mmistakes/minimal-mistakes.git
+```
+
+- Change the folder name **minimal-mistake** to **[username].github.io**. In my case, folder name is set as **acousticwave.github.io**.
+
+
+
+### Hosting the blog
+
+- You need to build a repository to web host your blog (the folder in your PC).
+
+
+
+### Write a first page
+
 - Make a "_posts" folder
-
-
 
 
 
@@ -38,3 +52,11 @@ I read the following references to build my first github.io blog.
 
 
 
+## Future plan
+
+- GitHub: how to
+- My datasets
+- Autopilot
+- VDR generator
+- ROS
+- Ship maneuberability

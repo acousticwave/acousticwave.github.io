@@ -33,7 +33,7 @@ $ git clone https://github.com/mmistakes/minimal-mistakes.git
 
 - You need to build a repository to host your blog (the folder **acousticwave.github.io**). A new repository can be created on GitHub webpage. Repository name is set as **acousticwave.github.io**.
 
-![](https://github.com/acousticwave/acousticwave.github.io/blob/master/assets/images/2021-03-27-hello-github-io-new-repo.png)
+![https://github.com/acousticwave/acousticwave.github.io/blob/master/assets/images/2021-03-27-hello-github-io-new-repo.png](https://github.com/acousticwave/acousticwave.github.io/blob/master/assets/images/2021-03-27-hello-github-io-new-repo.png)
 
 
 

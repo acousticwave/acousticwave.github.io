@@ -64,7 +64,7 @@ $ sudo apt-get install docker-ce docker-ce-cli containerd.io
 $ sudo usermode -aG docker $USER
 ```
 
-- This requires rebooting of your system.
+- This requires **<u>reboot</u>** of your system.
 
 
 
@@ -112,11 +112,81 @@ $ docker images
 
 
 
-### 2. Building a Pytorch container which utilize nvidia-docker
+### 2. Building a Pytorch container and utilizing Nvidia-docker
 
-- The first step is 
+- The first step is making a share directory, e.g.,
+
+```
+$ cd ~
+$ mkdir share
+```
+
+- Now we define a container whose name is `pytorch` and employ the downloaded image `fjvallarino/pytorch-geometric`.
+  - `~/share`: a file sharable space between my OS and the container
+  - `--gpus all`: utilized GPUs via Nvidia docker
+
+```
+$ docker run -itd --name pytorch fjvallarino/pytorch-geometric -v ~/share:/root/share -p 8888:8888 --gpus all
+```
+
+- You can list the container
+
+```
+$ docker ps -a
+```
+
+- *A container can be removed*
+
+```
+$ docker rm [CONTAINER ID]
+```
+
+- You can **run the container** `pytorch`
+
+```
+$ docker start pytorch
+$ docker exec it pytorch bash
+```
+
+- Check GPUs running
+
+```
+root@...:/workspace# nvidia-smi
+```
+
+- Run the python and test Pytorch
+
+```
+root@...:/workspace# python3
+```
+
+```python
+import torch
+torch.cuda.is_available()
+x = torch.rand(5.3)
+```
+
+- Stop the `pytorch` container
+
+```
+docker container stop pytorch
+```
 
 
+
+### 3. Install Jupyter Notebook on a container
+
+I am very happy to say docker supports Anaconda and we don't need to install on a container. And jupyter notebook can be installed.
+
+```
+conda install jupyter
+```
+
+And start jupyter notebook
+
+```
+jupyter notebook --ip=0.0.0.0 --port=8888 --alow-root
+```
 
 
 
@@ -128,4 +198,4 @@ $ docker images
 
 ## Future plan
 
-- GitHub: how to
+- 

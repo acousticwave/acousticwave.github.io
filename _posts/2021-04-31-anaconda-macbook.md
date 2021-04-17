@@ -93,13 +93,31 @@ Executing transaction: done
 
 
 
-### 2. Installing Python Module within the Virtual Environment
+### 2. Installing Python Module within the Virtual Environment (*venv_0*)
 
 - Within the virtual environment, install other Python modules
 
 **PyQT5**
 
 `conda install -c anaconda pyqt`
+
+##### Matplotlib
+
+`conda install -c conda-forge matplotlib`
+
+**Jupyter Notebook**
+
+`conda install -c conda-forge jupyterlab`
+
+**Pandas**
+
+`conda install -c anaconda pandas`
+
+**Scipy**
+
+`conda install -c anaconda scipy`
+
+
 
 **Echo the installed modules within the virtual environment**
 
@@ -130,7 +148,7 @@ zlib                      1.2.11               h1de35cc_3
 
 ## References
 
--  
+-  [Anaconda commands (in Korean)](https://medium.com/@5eo1ab/conda-env-%ED%84%B0%EB%AF%B8%EB%84%90-%EB%AA%85%EB%A0%B9%EC%96%B4-adc8366f8a9d)
 
 ## Future plan
 

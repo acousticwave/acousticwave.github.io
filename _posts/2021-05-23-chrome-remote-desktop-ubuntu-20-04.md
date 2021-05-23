@@ -31,16 +31,12 @@ $ sudo dpkg -i google-chrome-stable_current_amd64.deb
 
 - Run Chrome browser and move to `https://remotedesktop.google.com/headless`, then you will face "**Set up another computer**" as shown in the following Figure
 
-![](https://github.com/acousticwave/acousticwave.github.io/blob/master/assets/images/2021-05-23-chrome-remote-desktop-ubuntu-20-04-remote-1.png)
-
-([Image Link](https://github.com/acousticwave/acousticwave.github.io/blob/master/assets/images/2021-05-23-chrome-remote-desktop-ubuntu-20-04-remote-1.png))
+{% include figure image_path="/assets/images/2021-05-23-chrome-remote-desktop-ubuntu-20-04-remote-1.png" alt="this is a placeholder image" caption=" " %}
 
 - Click "Begin" button
 - Click the Debian Linux link to download deb package for installation of Chrome-Remote-Desktop
 
-![](https://github.com/acousticwave/acousticwave.github.io/blob/master/assets/images/2021-05-23-chrome-remote-desktop-ubuntu-20-04-remote-2.png)
-
-([Image Link](https://github.com/acousticwave/acousticwave.github.io/blob/master/assets/images/2021-05-23-chrome-remote-desktop-ubuntu-20-04-remote-2.png))
+{% include figure image_path="/assets/images/2021-05-23-chrome-remote-desktop-ubuntu-20-04-remote-2.png" alt="this is a placeholder image" caption=" " %}
 
 - Install the dowloaded deb package
 
@@ -52,15 +48,11 @@ $ sudo apt-get -f install
 - Click "Next" button
 - Click "Authorize" button
 
-![](https://github.com/acousticwave/acousticwave.github.io/blob/master/assets/images/2021-05-23-chrome-remote-desktop-ubuntu-20-04-remote-3.png)
-
-([Image Link](![](https://github.com/acousticwave/acousticwave.github.io/blob/master/assets/images/2021-05-23-chrome-remote-desktop-ubuntu-20-04-remote-3.png)))
+{% include figure image_path="/assets/images/2021-05-23-chrome-remote-desktop-ubuntu-20-04-remote-3.png" alt="this is a placeholder image" caption=" " %}
 
 - Copy the Debian Linux command and paste it in a terminal. It will ask you PIN Numbers and this will be required to make a connection beween the remote PC and other PC
 
-![](https://github.com/acousticwave/acousticwave.github.io/blob/master/assets/images/2021-05-23-chrome-remote-desktop-ubuntu-20-04-remote-4.png)
-
-([Image Link](![](https://github.com/acousticwave/acousticwave.github.io/blob/master/assets/images/2021-05-23-chrome-remote-desktop-ubuntu-20-04-remote-4.png)))
+{% include figure image_path="/assets/images/2021-05-23-chrome-remote-desktop-ubuntu-20-04-remote-4.png" alt="this is a placeholder image" caption=" " %}
 
 - Now, your remote PC is ready to make a connection!
 
@@ -68,18 +60,14 @@ $ sudo apt-get -f install
 
 ## 3. Make a Remote Connection
 
-- On your other PC (in my case, on my Macbook), open Chrome browser and remote-desktop extensio
+- On your other PC (in my case, on my Macbook), open Chrome browser and remote-desktop extension
 
-![](https://github.com/acousticwave/acousticwave.github.io/blob/master/assets/images/2021-05-23-chrome-remote-desktop-ubuntu-20-04-mac-1.png)
-
-([Image Link](https://github.com/acousticwave/acousticwave.github.io/blob/master/assets/images/2021-05-23-chrome-remote-desktop-ubuntu-20-04-mac-1.png))
+{% include figure image_path="/assets/images/2021-05-23-chrome-remote-desktop-ubuntu-20-04-mac-1.png" alt="this is a placeholder image" caption=" " %}
 
 - Click the your remote PC and put the defined PIN numbers
 - It will ask you Xsession or Ubuntu
 
-![](https://github.com/acousticwave/acousticwave.github.io/blob/master/assets/images/2021-05-23-chrome-remote-desktop-ubuntu-20-04-mac-2.png)
-
-([Image Link](![](https://github.com/acousticwave/acousticwave.github.io/blob/master/assets/images/2021-05-23-chrome-remote-desktop-ubuntu-20-04-mac-2.png)))
+{% include figure image_path="/assets/images/2021-05-23-chrome-remote-desktop-ubuntu-20-04-mac-2.png" alt="this is a placeholder image" caption=" " %}
 
 - Both will not directly show status displayed on you remote PC
 
@@ -92,7 +80,7 @@ $ sudo apt-get -f install
 - chmod +x
 
   ```
-  $ chmode +x chrome_remote_desktop_monkeypatching_20.04.sh
+  $ chmod +x chrome_remote_desktop_monkeypatching_20.04.sh
   ```
 
 - Stop Chrome-remote-desktop

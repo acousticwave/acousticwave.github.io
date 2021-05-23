@@ -13,13 +13,13 @@ last_modified_at: 2021-05-23T17:00:00-05:00
 
 ## 1. Installing Chrome on Ubuntu 20.04
 
-- Enter the following command in a terminal to get an installation file.
+- Enter the following command in a terminal to get an install file
 
 ```
 $ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 ```
 
-- Install the package via dpkg 
+- Install the package via dpkg
 
 ```
 $ sudo dpkg -i google-chrome-stable_current_amd64.deb
@@ -87,7 +87,7 @@ $ sudo apt-get -f install
 
 ## 4. Make a Connection with Ubuntu Desktop (Teamviewer like)
 
-- Download monkey patching for Ubuntu20.04 (chrome_remote_desktop_monkeypatching_20.04.sh)
+- Download monkeypatching for Ubuntu20.04 ([chrome_remote_desktop_monkeypatching_20.04.sh](https://jehyunlee.github.io/2020/04/08/Python-General-4-ChromeRemoteDesktopLinux/chrome_remote_desktop_monkeypatching_20.04.sh))
 
 - chmod +x
 
@@ -101,10 +101,10 @@ $ sudo apt-get -f install
   $ /opt/google/chrome-remote-desktop/chrome-remote-desktop --stop
   ```
 
-- Run monkey patching
+- Run monkeypatching
 
   ```
-  sudo ./chrome_remote_desktop_monkeypatching_20.04.sh
+  $ sudo ./chrome_remote_desktop_monkeypatching_20.04.sh
   ```
 
 - Start Chrome-remote-desktop
@@ -115,8 +115,10 @@ $ sudo apt-get -f install
 
 - Now, if you make a connection, it will show ubuntu desktop like Teamviewer.
 
+
+
 ## References
 
 - [Setting up Chrome remote desktop for Ubuntu 20.04](https://goodtogreate.tistory.com/entry/%ED%81%AC%EB%A1%AC-%EC%9B%90%EA%B2%A9%EB%8D%B0%EC%8A%A4%ED%81%AC%ED%83%91-Ubuntu-2004%EC%97%90%EC%84%9C-%EC%84%A4%EC%A0%95) (in Korean)
-- https://jehyunlee.github.io/2020/04/08/Python-General-4-ChromeRemoteDesktopLinux/
+- https://jehyunlee.github.io/2020/04/08/Python-General-4-ChromeRemoteDesktopLinux
 

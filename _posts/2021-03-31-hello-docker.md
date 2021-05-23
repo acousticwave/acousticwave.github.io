@@ -73,6 +73,8 @@ $ sudo usermode -aG docker $USER
 - Nvidia Docker should be installed to use a GPU (infrastructure) in your system, because Docker is separated with the OS.
 - Nvidia driver need to be installed on your system prior to install Nvidia Docker. This can be checked at **Settings > Software & Updates**.
 
+{% include figure image_path="/assets/images/2021-03-31-hello-docker_nvidia-driver-ubuntu.png" alt="this is a placeholder image" caption="This is a figure caption." %}
+
 <img src="/Users/yodacat/Documents/repository-a/acousticwave.github.io/assets/images/2021-03-31-hello-docker_nvidia-driver-ubuntu.png" alt="2021-03-31-hello-docker_nvidia-driver-ubuntu" style="zoom:80%;" />
 
 

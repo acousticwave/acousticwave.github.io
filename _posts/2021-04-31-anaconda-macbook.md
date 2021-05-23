@@ -93,7 +93,7 @@ Executing transaction: done
 
 
 
-### 2. Installing Python Module within the Virtual Environment (*venv_0*)
+### 2. Installing Python Module within the Virtual Environment (<u>venv_0</u>)
 
 - Within the virtual environment, install other Python modules
 
@@ -101,21 +101,55 @@ Executing transaction: done
 
 `conda install -c anaconda pyqt`
 
-##### Matplotlib
+
+
+**Matplotlib**
 
 `conda install -c conda-forge matplotlib`
+
+
 
 **Jupyter Notebook**
 
 `conda install -c conda-forge jupyterlab`
 
+
+
 **Pandas**
 
 `conda install -c anaconda pandas`
 
+
+
 **Scipy**
 
 `conda install -c anaconda scipy`
+
+
+
+**Gpxpy**
+
+`conda install -c conda-forge gpxpy`
+
+
+
+**utm**
+
+`conda install -c conda-forge utm`
+
+
+
+**gmplot**
+
+`conda install -c mlgill gmplot`
+
+or `pip install gmplot` on the terminal after activating a virtual env.
+
+
+
+**basemap**
+
+`conda install -c anaconda basemap`
 
 
 
@@ -143,6 +177,12 @@ wheel                     0.36.2             pyhd3eb1b0_0
 xz                        5.2.5                h1de35cc_0  
 zlib                      1.2.11               h1de35cc_3  
 ```
+
+
+
+### 3. Run a Virtual Env on VSCODE
+
+https://mylogcenter.tistory.com/7
 
 
 

@@ -31,38 +31,36 @@ $ sudo dpkg -i google-chrome-stable_current_amd64.deb
 
 - Run Chrome browser and move to `https://remotedesktop.google.com/headless`, then you will face "**Set up another computer**" as shown in the following Figure
 
-  ![](https://github.com/acousticwave/acousticwave.github.io/blob/master/assets/images/2021-05-23-chrome-remote-desktop-ubuntu-20-04-remote-1.png)
+![](https://github.com/acousticwave/acousticwave.github.io/blob/master/assets/images/2021-05-23-chrome-remote-desktop-ubuntu-20-04-remote-1.png)
 
-  ([Open image](https://github.com/acousticwave/acousticwave.github.io/blob/master/assets/images/2021-05-23-chrome-remote-desktop-ubuntu-20-04-remote-1.png))
+([Image Link](https://github.com/acousticwave/acousticwave.github.io/blob/master/assets/images/2021-05-23-chrome-remote-desktop-ubuntu-20-04-remote-1.png))
 
 - Click "Begin" button
-
 - Click the Debian Linux link to download deb package for installation of Chrome-Remote-Desktop
 
-  ![](https://github.com/acousticwave/acousticwave.github.io/blob/master/assets/images/2021-05-23-chrome-remote-desktop-ubuntu-20-04-remote-2.png) 
+![](https://github.com/acousticwave/acousticwave.github.io/blob/master/assets/images/2021-05-23-chrome-remote-desktop-ubuntu-20-04-remote-2.png)
 
-​       ([Open image](https://github.com/acousticwave/acousticwave.github.io/blob/master/assets/images/2021-05-23-chrome-remote-desktop-ubuntu-20-04-remote-2.png))
+([Image Link](https://github.com/acousticwave/acousticwave.github.io/blob/master/assets/images/2021-05-23-chrome-remote-desktop-ubuntu-20-04-remote-2.png))
 
 - Install the dowloaded deb package
 
 ```
 $ sudo dpkg -i ~/Downloads/Chrome-remote-desktop_current_amd64.deb
-$ $ sudo apt-get -f install
+$ sudo apt-get -f install
 ```
 
 - Click "Next" button
-
 - Click "Authorize" button
 
-  ![](https://github.com/acousticwave/acousticwave.github.io/blob/master/assets/images/2021-05-23-chrome-remote-desktop-ubuntu-20-04-remote-3.png)
+![](https://github.com/acousticwave/acousticwave.github.io/blob/master/assets/images/2021-05-23-chrome-remote-desktop-ubuntu-20-04-remote-3.png)
 
-  ([Open image](![](https://github.com/acousticwave/acousticwave.github.io/blob/master/assets/images/2021-05-23-chrome-remote-desktop-ubuntu-20-04-remote-3.png)))
+([Image Link](![](https://github.com/acousticwave/acousticwave.github.io/blob/master/assets/images/2021-05-23-chrome-remote-desktop-ubuntu-20-04-remote-3.png)))
 
 - Copy the Debian Linux command and paste it in a terminal. It will ask you PIN Numbers and this will be required to make a connection beween the remote PC and other PC
 
-  ![](https://github.com/acousticwave/acousticwave.github.io/blob/master/assets/images/2021-05-23-chrome-remote-desktop-ubuntu-20-04-remote-4.png)
+![](https://github.com/acousticwave/acousticwave.github.io/blob/master/assets/images/2021-05-23-chrome-remote-desktop-ubuntu-20-04-remote-4.png)
 
-  ([Open image](![](https://github.com/acousticwave/acousticwave.github.io/blob/master/assets/images/2021-05-23-chrome-remote-desktop-ubuntu-20-04-remote-4.png)))
+([Image Link](![](https://github.com/acousticwave/acousticwave.github.io/blob/master/assets/images/2021-05-23-chrome-remote-desktop-ubuntu-20-04-remote-4.png)))
 
 - Now, your remote PC is ready to make a connection!
 
@@ -70,19 +68,18 @@ $ $ sudo apt-get -f install
 
 ## 3. Make a Remote Connection
 
-- On your other PC (in my case, on my Macbook), open Chrome browser and remote-desktop extension
+- On your other PC (in my case, on my Macbook), open Chrome browser and remote-desktop extensio
 
-  ![](https://github.com/acousticwave/acousticwave.github.io/blob/master/assets/images/2021-05-23-chrome-remote-desktop-ubuntu-20-04-mac-1.png)
+![](https://github.com/acousticwave/acousticwave.github.io/blob/master/assets/images/2021-05-23-chrome-remote-desktop-ubuntu-20-04-mac-1.png)
 
-  ([Open image](https://github.com/acousticwave/acousticwave.github.io/blob/master/assets/images/2021-05-23-chrome-remote-desktop-ubuntu-20-04-mac-1.png))
+([Image Link](https://github.com/acousticwave/acousticwave.github.io/blob/master/assets/images/2021-05-23-chrome-remote-desktop-ubuntu-20-04-mac-1.png))
 
 - Click the your remote PC and put the defined PIN numbers
-
 - It will ask you Xsession or Ubuntu
 
-  ![](https://github.com/acousticwave/acousticwave.github.io/blob/master/assets/images/2021-05-23-chrome-remote-desktop-ubuntu-20-04-mac-2.png)
+![](https://github.com/acousticwave/acousticwave.github.io/blob/master/assets/images/2021-05-23-chrome-remote-desktop-ubuntu-20-04-mac-2.png)
 
-  ([Open](![](https://github.com/acousticwave/acousticwave.github.io/blob/master/assets/images/2021-05-23-chrome-remote-desktop-ubuntu-20-04-mac-2.png)))
+([Image Link](![](https://github.com/acousticwave/acousticwave.github.io/blob/master/assets/images/2021-05-23-chrome-remote-desktop-ubuntu-20-04-mac-2.png)))
 
 - Both will not directly show status displayed on you remote PC
 

@@ -143,7 +143,7 @@ $ docker rm [CONTAINER ID]
 
 ```
 $ docker start pytorch
-$ docker exec it pytorch bash
+$ docker exec -it pytorch bash
 ```
 
 - Check GPUs running
@@ -162,6 +162,17 @@ root@...:/workspace# python3
 import torch
 torch.cuda.is_available()
 x = torch.rand(5.3)
+```
+
+- Checking the file share folder
+  - After running a container, current path is `workspace`
+  - The defined `share` folder path is
+
+```
+root@ ... :/worksapce# cd ..
+root@ ... :/worksapce# cd root
+root@ ... :/worksapce# ls
+share
 ```
 
 - Stop the `pytorch` container
@@ -183,7 +194,7 @@ conda install jupyter
 And start jupyter notebook
 
 ```
-jupyter notebook --ip=0.0.0.0 --port=8888 --alow-root
+jupyter notebook --ip=0.0.0.0 --port=8888 --allow-root
 ```
 
 
@@ -196,4 +207,4 @@ jupyter notebook --ip=0.0.0.0 --port=8888 --alow-root
 
 ## Future plan
 
-- 
+- Upload my IMGs

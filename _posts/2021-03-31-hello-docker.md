@@ -202,6 +202,7 @@ jupyter notebook --ip=0.0.0.0 --port=8888 --allow-root
 ## References
 
 - [Pytorch and Jupyternotebook on Docker](https://89douner.tistory.com/96?category=878197) (in Korean)
+- [Getting started Docker]([https://www.44bits.io/ko/post/easy-deploy-with-docker) (in Korean)
 
 
 

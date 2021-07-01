@@ -153,6 +153,12 @@ or `pip install gmplot` on the terminal after activating a virtual env.
 
 
 
+**jsonlines**
+
+`conda install -c conda-forge jsonlines`
+
+
+
 **Echo the installed modules within the virtual environment**
 
 `conda list -n venv_0` , where `venv_0` is name of the virtual environment.

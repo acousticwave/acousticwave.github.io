@@ -159,6 +159,36 @@ or `pip install gmplot` on the terminal after activating a virtual env.
 
 
 
+**pynmea2**
+
+`conda install -c conda-forge pynmea2`
+
+
+
+**pyserial**
+
+`conda install -c anaconda pyserial`
+
+
+
+**pytest**
+
+`conda install -c anaconda pytest`
+
+
+
+**LatLon23(1.07)** (Decimal <-> DMS)
+
+`conda install -c conda-forge latlon23`
+
+
+
+**Plotly**
+
+`conda install -c plotly plotly`
+
+
+
 **Echo the installed modules within the virtual environment**
 
 `conda list -n venv_0` , where `venv_0` is name of the virtual environment.

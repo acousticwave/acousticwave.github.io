@@ -1,6 +1,6 @@
 ---
 title: "Hello Docker"
-excerpt: "Now, I use Docker"
+excerpt: "Installing Docker and Nvidia Docker"
 
 categories:
   - Env
@@ -197,7 +197,7 @@ And start jupyter notebook
 jupyter notebook --ip=0.0.0.0 --port=8888 --allow-root
 ```
 
-
+Other approach is using  [VSCODE](https://89douner.tistory.com/123)
 
 ## References
 

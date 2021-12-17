@@ -15,9 +15,9 @@ I decided to use Docker to manage my development environments (I use Ubuntu 20.0
 
 ## Containers in Ubuntu PC
 
+The following containers have been used and managed.
 
-
-### 1. Pytorch
+### Pytorch
 
 - librosa
 
@@ -25,6 +25,8 @@ I decided to use Docker to manage my development environments (I use Ubuntu 20.0
 root@be71fefc764b:/ workspace # pip install librosa
 root@be71fefc764b:/ workspace # apt-get update
 root@be71fefc764b:/ workspace # apt-get install libsndfile1
+root@be71fefc764b:/ workspace # apt-get install ffmpeg
 ```
 
 - 
+

@@ -66,7 +66,22 @@ last_modified_at: 2022-06-11T17:00
 
 
 
-## Move an Image to Other Env ()
+## Sharing  Host Path with Container Path
+
+- Docker Desktop support sharing a ```Host(Local) Path``` with ```Container Path```
+  - Docker Desktop → Images  →  Run  → Operation Settings
+    - Container Name: Set ```Container Name```
+    - Volumes
+      - ```Host Path```: Define a path to be shared with a container (files in this path are uploaded to ```Container Path```)
+      - ```Container Path```: Path to be connected to ```Host Path```
+
+{% include figure image_path="/assets/images/2022-06-11-docker-tips-new-container-0.png" alt="this is a placeholder image" caption="Docker Desktop > New Container" %}
+
+{% include figure image_path="/assets/images/2022-06-11-docker-tips-new-container-1.png" alt="this is a placeholder image" caption="Container Name / Host Path / Container Path" %}
+
+
+
+## *Move an Image to Other Env (TBU)*
 
 - List Docker images
 

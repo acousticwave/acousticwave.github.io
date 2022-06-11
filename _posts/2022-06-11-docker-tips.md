@@ -54,9 +54,17 @@ last_modified_at: 2022-06-11T17:00
 
 
 
-## Push an Image on a Remote Repo.
+## Image → Remote Repo.
 
-{% include figure image_path="/assets/images/2022-06-11-docker-tips-push-to-hub.png" alt="this is a placeholder image" caption="images > Push to Hub" %}
+- Docker Desktop can pushs the built image to a remote remote repository
+
+{% include figure image_path="/assets/images/2022-06-11-docker-tips-push-to-hub.png" alt="this is a placeholder image" caption="Images > Push to Hub" %}
+
+- We can pull this image on other devices.
+
+{% include figure image_path="/assets/images/2022-06-11-docker-tips-pull.png" alt="this is a placeholder image" caption="Remote Repo. > Pull" %}
+
+
 
 ## Move an Image to Other Env ()
 

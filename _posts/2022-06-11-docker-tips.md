@@ -36,7 +36,7 @@ last_modified_at: 2022-06-11T17:00
     cf66765c8f20   fjvallarino/pytorch-geometric:latest   "/bin/bash"   2 months ago   Up 8 seconds             container_name
     ```
 
-- running container → image 
+- Running container → image 
 
   - ```$ docker commit -a [AUTHOR] -m [COMMIT MSG] [CONTAINER NAME] [REPO]:[TAG]```
 
@@ -78,6 +78,24 @@ last_modified_at: 2022-06-11T17:00
 {% include figure image_path="/assets/images/2022-06-11-docker-tips-new-container-0.png" alt="this is a placeholder image" caption="Docker Desktop > New Container" %}
 
 {% include figure image_path="/assets/images/2022-06-11-docker-tips-new-container-1.png" alt="this is a placeholder image" caption="Container Name / Host Path / Container Path" %}
+
+
+
+## Attaching a Container to Visual Studio Code
+
+- Open a Visual Studio Code window and install **Docker** and **Remote Development** extensions.
+- And Run a Container (Setting of ```Host Path``` and ```Container Path``` required as explained [above](## Sharing  Host Path with Container Path))
+- Type ```Cmd + Shift + P ``` and  ```remote-containers: Attach to Running Container...```
+
+{% include figure image_path="/assets/images/2022-06-11-docker-tips-remote-container.png" alt="this is a placeholder image" caption="remote-containers" %}
+
+- Select a running container
+
+{% include figure image_path="/assets/images/2022-06-11-docker-tips-select-running-container.png" alt="this is a placeholder image" caption="Running Container" %}
+
+- VSCODE > Open Folder ... > Type  ```Container Path```
+
+{% include figure image_path="/assets/images/2022-06-11-docker-tips-type-container-path.png" alt="this is a placeholder image" caption="Container Path" %}
 
 
 
